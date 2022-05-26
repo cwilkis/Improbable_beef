@@ -7,16 +7,18 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bellybutton Biodiversity</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body style="background-color: silver">
 
   <div class="container">
     <div class="row">
       <div class="col-md-12 jumbotron text-center">
-        <h2 class="display-3">Belly Button Biodiversity Dashboard</h2>
+        <h1>Belly Button Biodiversity Dashboard</h1>
         <p>Use the interactive charts below to explore the dataset</p>
+      </div>
+      <div class="container">
+        <p> The images below detail the results of significant scientific studies into the cleanliness and bacteria studies of the human belly button. These studies were focused on identifying and possibly harvesting the said bacteria for further processing. This work is propriarty and confidential to Improbable Meats Inc.   </p>
       </div>
     </div>
     <div class="row">
@@ -33,15 +35,16 @@
           <div id="sample-metadata" class="panel-body"></div>
         </div>
       </div>
-      <div class="col-md-4 bar-container">
-        <div id="bar"></div>
-      </div>
-      <div class="col-md-4 gauge-container">
+      <div class="col-md-4" >
         <div id="gauge"></div>
+      </div>
+    <div class="row">  
+      <div class="col-md-12">
+        <div id="bar"></div>
       </div>
     </div>
     <div class="row">
-      <div class="col-md-10 bubble-container">
+      <div class="col-md-12">
         <div id="bubble"></div>
       </div>
     </div>
@@ -49,7 +52,7 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="charts.js"></script>
+  <script src="Charts.js"></script>
 
 </body>
 
